@@ -8,13 +8,13 @@ def main():
 
     for v in range(5):
         car.accelerate()
-        print(car.get_speed())
+        print("Current speed:",car.get_speed())
 
     print("Decelerating the car...")
 
 
     for v in range(5):
         car.brake()
-        print(car.get_speed())
+        print("Current speed:",car.get_speed())
 
 main()
